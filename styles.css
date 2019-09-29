@@ -12,7 +12,7 @@ html {
 body {
   height: 100%;
   margin: 0;
-  text-align: center;
+
 }
 
 ul {
@@ -48,15 +48,17 @@ header {
   display: flex;
   flex-direction: column;
   padding: 1em;
+  padding-top: 15em;
+  align-items: center;
 }
 
 .greeting {
-  font-family: "Noto Sans", sans-serif;
+  padding: 2em;
 }
 
 .imgCropper {
-  width: 130px;
-  height: 130px;
+  width: 150px;
+  height: 150px;
   position: relative;
   overflow: hidden;
   border-radius: 50%;
@@ -75,5 +77,26 @@ header {
 
 .socialLinks{
   display: flex;
+  margin: 20px;
 }
 
+.icon{
+  width: 2em;
+}
+
+.bioIntro{
+  padding: 1em;
+}
+
+/* Section A: Projects */
+
+.a{
+  background: #313030;
+  color: white;
+  padding: 1em;
+}
+
+.journaler{
+  border: 1px solid white;
+  padding: .5em;
+}
