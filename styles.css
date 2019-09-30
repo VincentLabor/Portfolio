@@ -78,6 +78,7 @@ header {
 .socialLinks{
   display: flex;
   margin: 20px;
+  padding-top: 4em;
 }
 
 .icon{
@@ -99,4 +100,9 @@ header {
 .journaler{
   border: 1px solid white;
   padding: .5em;
+  
+}
+
+.journalerProject{
+  width: 100%;
 }
