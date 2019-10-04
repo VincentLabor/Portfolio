@@ -8,6 +8,11 @@
 
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 html {
   height: 100%;
 }
@@ -57,7 +62,7 @@ color: white;
   display: flex;
   flex-direction: column;
   padding: 1em;
-  padding-top: 15em;
+  padding-top: 12em;
   align-items: center;
 }
 
@@ -90,9 +95,25 @@ color: white;
   padding-top: 4em;
 }
 
-.icon{
-  width: 2em;
+.socialLinks li{
+  vertical-align: center;
+}
+
+/* a{
+  text-decoration: none;
   color: white;
+}
+
+.linkText{
+display: inline;
+padding-bottom: 1em;
+
+} */
+
+.icon{
+  width: 1.7em;
+  color: white;
+  margin-right: .5em;
 }
 
 .bioIntro{
@@ -115,15 +136,13 @@ color: white;
 }
 
 .project{
-  padding: 1em 2em;
+  padding: 2em 2em;
   margin-bottom: 2em;
   background:  #ebecf0;
   border-radius: 10px;
 }
 
-.projectNames{
-  padding: 1em 0em;
-}
+
 
 .journalerProject{
   width: 100%;
@@ -132,13 +151,13 @@ color: white;
 
 /*Section B*/
 .b{
-  padding: 1em 1.5em;
+  padding: 3em 1.5em;
   background: #4DB2FF;
 }
 
 .b-container{
   background: #F4F4F4;
-  padding: 1em 2em;
+  padding: 2em 2em;
   border-radius: 10px;
 }
 
@@ -172,4 +191,10 @@ b ul {
 
 .univ{
   padding-bottom: 1em;
+}
+
+@media (min-width:650px){
+.introduction{
+  padding-top: 10em;
+}
 }
