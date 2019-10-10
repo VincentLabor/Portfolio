@@ -4,8 +4,7 @@
   font-family: Arial, Helvetica, sans-serif;
   box-sizing: border-box;
   line-height: 1.3;
-  font-family: 'Roboto', sans-serif;
-
+  font-family: "Roboto", sans-serif;
 }
 
 a {
@@ -20,23 +19,22 @@ html {
 body {
   height: 100%;
   margin: 0;
-
 }
 
 ul {
   list-style: none;
   margin: 0;
-  padding:0;
+  padding: 0;
 }
 
 /* Header */
 
-.name{
+.name {
   color: white;
 }
 
 header {
-color: white;
+  color: white;
   width: 100%;
   /* padding: 0 0 40%;  This would give me more*/
   background-size: cover;
@@ -46,7 +44,7 @@ color: white;
 }
 
 .layer {
-  background: rgba( 77, 178, 255,0.85);
+  background: rgba(77, 178, 255, 0.85);
   /* background: rgba(255, 255, 255, 0.8); */
   position: absolute;
   top: 0;
@@ -58,12 +56,11 @@ color: white;
 .introduction {
   width: 100%;
   height: 100%;
-  align-items: center;
   display: flex;
   flex-direction: column;
   padding: 1em;
-  padding-top: 12em;
   align-items: center;
+  justify-content: center;
 }
 
 .greeting {
@@ -89,74 +86,70 @@ color: white;
   text-align: center;
 }
 
-.socialLinks{
+.socialLinks {
   display: flex;
   margin: 20px;
   padding-top: 4em;
 }
 
-.socialLinks li{
+.socialLinks li {
   vertical-align: center;
 }
 
-/* a{
-  text-decoration: none;
-  color: white;
+.socialMediaLinks{
+  /* padding-bottom:2000000em; */
 }
 
-.linkText{
-display: inline;
-padding-bottom: 1em;
-
-} */
-
-.icon{
-  width: 1.7em;
-  color: white;
-  margin-right: .5em;
+.extLink {
+  color: #007fdf;
+  text-decoration: underline;
 }
 
-.bioIntro{
+
+.icon {
+  width: 1.8em;
+  color: white;
+  margin-right: 0.5em;
+}
+
+.bioIntro {
   padding: 1em;
 }
 
 /* Section A: Projects */
 
-.sectionAHeading{
+.sectionAHeading {
   padding: 1em 0em 1em;
   color: black;
 }
 
-.a{
+.a {
   /* background: #313030; */
   /* background:  #007FDF; */
-  background: #B0C0CC;
+  background: #b0c0cc;
   color: black;
   padding: 1em 1.5em;
 }
 
-.project{
+.project {
   padding: 2em 2em;
   margin-bottom: 2em;
-  background:  #ebecf0;
+  background: #ebecf0;
   border-radius: 10px;
 }
 
-
-
-.journalerProject{
+.journalerProject {
   width: 100%;
 }
 
-
 /*Section B*/
-.b{
+.b {
   padding: 3em 1.5em;
-  background: #4DB2FF;
+  background: #4db2ff;
 }
 
-.b-container{
-  background: #F4F4F4;
+.b-container {
+  background: #f4f4f4;
   padding: 2em 2em;
   border-radius: 10px;
 }
@@ -165,36 +158,69 @@ padding-bottom: 1em;
   margin-top: 1em;
 }
 
-.minorHeading{
+.minorHeading {
   margin-top: 3em;
   margin-bottom: 1em;
   font-size: 1.4em;
-  color: #007FDF;
+  color: #007fdf;
 }
 
 b ul {
   padding-left: 8em;
 }
 
-.sectionBHeading{
+.sectionBHeading {
   font-size: 1.4em;
-  color: #007FDF;
+  color: #007fdf;
 }
 
-.sdsu{
- margin-bottom: 1.5em;
+.sdsu {
+  margin-bottom: 1.5em;
 }
 
-.degreeInfo{
+.degreeInfo {
   padding: 1em 0em;
-} 
+}
 
-.univ{
+.univ {
   padding-bottom: 1em;
 }
 
-@media (min-width:650px){
-.introduction{
-  padding-top: 10em;
+@media (min-width: 650px) {
+  .icon {
+    width: 2em;
+  }
+  .imgCropper{
+    width: 160px;
+    height: 160px;
+  }
 }
+
+@media (min-width: 875px) {
+  .name {
+    font-size: 2.5em;
+  }
+}
+
+@media (min-width: 1024px) {
+  .introduction,
+  .a-container,
+  .b-container {
+    width: 80%;
+  }
+  .imgCropper{
+    width: 180px;
+    height: 180px;
+  }
+}
+@media (min-width: 1600px) {
+  .introduction,
+  .a-container,
+  .b-container {
+    width: 70%;
+  }
+  .imgCropper{
+    width: 190px;
+    height: 190px;
+  }
 }
