@@ -27,6 +27,10 @@ ul {
   padding: 0;
 }
 
+.hide-mobile{
+  display: none;
+}
+
 /* Header */
 
 .name {
@@ -34,13 +38,14 @@ ul {
 }
 
 header {
+  box-sizing: border-box;
   color: white;
   width: 100%;
   /* padding: 0 0 40%;  This would give me more*/
   background-size: cover;
   text-align: center;
   height: 100%;
-  background-image: url("./assets/604736-PN6JW6-524.jpg");
+  background-image: url("./assets/friendship.jpg");
 }
 
 .layer {
@@ -88,17 +93,12 @@ header {
 
 .socialLinks {
   display: flex;
-  margin: 20px;
   padding-top: 4em;
 }
 
-.socialLinks li {
-  vertical-align: center;
-}
 
-.socialMediaLinks{
-  /* padding-bottom:2000000em; */
-}
+
+
 
 .extLink {
   color: #007fdf;
@@ -109,7 +109,6 @@ header {
 .icon {
   width: 1.8em;
   color: white;
-  margin-right: 0.5em;
 }
 
 .bioIntro {
@@ -212,6 +211,13 @@ b ul {
     width: 180px;
     height: 180px;
   }
+
+  .hide-mobile{
+    display: block;
+    padding-top: 10em;
+    width: .8em;
+  }
+
 }
 @media (min-width: 1600px) {
   .introduction,
@@ -222,5 +228,9 @@ b ul {
   .imgCropper{
     width: 190px;
     height: 190px;
+  }
+
+  .hide-mobile{
+    width: 1em;
   }
 }
