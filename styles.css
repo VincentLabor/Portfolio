@@ -45,7 +45,7 @@ header {
   background-size: cover;
   text-align: center;
   height: 100%;
-  background-image: url("./assets/friendship.jpg");
+  background-image: url("./assets/friendship.jpg"); /* This is the background photo of the website */
 }
 
 .layer {
@@ -97,7 +97,21 @@ header {
 }
 
 
+.buttonLink{
+  width: 5rem;
+  height: 1.5rem;
+  border-radius: 10px;
+  background: #007fdf;
+  color: white;
+  border: none; 
+  /* The ftp is not detecting the changes being made to the butttons */
+}
 
+.buttonLink:hover{
+  cursor: pointer;
+  background: #69adfa;
+
+}
 
 
 .extLink {
